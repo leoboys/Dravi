@@ -1,0 +1,255 @@
+.coverbody{
+width: 100% !important;
+height: 1079px !important;
+top: 0% !important;
+background: linear-gradient(#343434 0%, #5a5a5a 100%) !important;
+
+}
+
+
+.logo{
+    width: 48px !important;
+    height: 48px !important;
+    flex-grow: 1 !important;
+    margin-top: 42px !important;
+    margin-left: 172px !important;
+    /* background: url(...); */
+    }
+
+    .logo-dravi{
+
+        font-family: Nunito !important;
+        font-weight: 600 !important;
+        font-size: 29px !important;
+        text-align: left !important;
+        margin-left: 3px !important;
+        margin-top: 57px !important;
+        color: #e3c066;
+        flex-grow: 1;
+        
+        }
+
+    
+.buyer{
+    font-family: Montserrat !important;
+    font-weight: normal !important;
+    font-size: 18px !important;
+    letter-spacing: 0.04em !important;
+    text-align: left !important;
+    color: #fcfaf1 !important;
+    margin-top: 57px !important;
+    margin-right: 0% !important;
+    
+    }
+.owner{
+font-family: Nexa-Trial !important;
+font-weight: normal !important;
+font-size: 18px !important;
+letter-spacing: 0.04em !important;
+text-align: left !important;
+color: #fcfaf1 !important;
+margin-top: 57px !important;
+
+}
+
+.tenant{
+    font-family: Nexa-Trial !important;
+font-weight: normal !important;
+font-size: 18px !important;
+letter-spacing: 0.04em !important;
+text-align: left !important;
+color: #fcfaf1 !important;
+margin-top: 57px !important;
+}
+
+.builder{
+    font-family: Nexa-Trial !important;
+font-weight: normal !important;
+font-size: 18px !important;
+letter-spacing: 0.04em !important;
+text-align: left !important;
+color: #fcfaf1 !important;
+margin-top: 57px !important;
+}
+
+.dealer{
+font-family: Nexa-Trial !important;
+font-weight: normal !important;
+font-size: 18px !important;
+letter-spacing: 0.04em !important;
+text-align: left !important;
+color: #fcfaf1 !important;
+margin-top: 57px !important;
+}
+
+.menu{
+    margin-top: 57px;
+    color: #fcfaf1 !important;
+    size: 25px !important;
+    letter-spacing: 0.04em !important;
+    margin-right: 10% !important;
+    margin-top: 57px !important;
+}
+
+.cover-Title{
+    margin-top: 10% !important;
+    margin-left: 26% !important;
+    text-align: center !important;
+    width: 743px !important;
+    height: 46px !important;
+    letter-spacing: 0.04em !important;
+    background: transparent !important;
+    color: white !important;
+    font-size: 30px !important;
+    font-weight: normal !important;
+    flex-grow: 1 !important;
+
+}
+
+.bank{
+width: 60% !important;
+height: 80% !important;
+text-align: center !important;
+align-items: center !important;
+margin-left: 25% !important;
+top: 10px !important;
+size: 50% !important;
+}
+
+.property{
+font-family: Nunito !important;
+font-weight: bold !important;
+font-size: 14px !important;
+line-height: 21px !important;
+text-align: center !important;
+color: #fcfaf1 !important;
+width: 120px !important;
+margin-left: 365px !important;
+margin-top: -10px !important;
+}
+
+.revenue{
+font-family: Nunito !important;
+font-weight: bold !important;
+font-size: 14px !important;
+line-height: 21px !important;
+text-align: center !important;
+color: #fcfaf1 !important;
+width: 68px !important;
+margin-left: 20px !important;
+margin-top: -10px !important;
+
+}
+
+.land{
+    font-family: Nunito !important;
+font-weight: bold !important;
+font-size: 14px !important;
+line-height: 21px !important;
+text-align: center !important;
+color: #fcfaf1 !important;
+width: 62px !important;
+margin-left: 50px !important;
+margin-top: -10px !important;
+
+}
+
+.realestate{
+    font-family: Nunito !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    line-height: 21px !important;
+    text-align: center !important;
+    color: #fcfaf1 !important;
+    width: 62px !important;
+    margin-left: 58px !important;
+    margin-top: -10px !important;
+}
+
+.NRI{
+    font-family: Nunito !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    line-height: 21px !important;
+    text-align: center !important;
+    color: #fcfaf1 !important;
+    width: 50px !important;
+    margin-left: 48px !important;
+    margin-top: -10px !important;
+}
+
+.prop-manage{
+    font-family: Nunito !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    line-height: 21px !important;
+    text-align: center !important;
+    color: #fcfaf1 !important;
+    width: 96px !important;
+    margin-left: 38px !important;
+    margin-top: -10px !important;
+
+}
+
+.more-service{
+    font-family: Nunito !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    line-height: 21px !important;
+    text-align: center !important;
+    color: #fcfaf1 !important;
+    width: 60px !important;
+    margin-left: 48px !important;
+    margin-top: -10px !important;
+
+}
+
+.select{
+    width: 15% !important;
+    background-color: whitesmoke !important;
+    border-radius: 25px 0px 0px 25px;
+    margin-top: 5% !important;
+    margin-left: 12% !important;
+    text-align: center !important;
+    font-size: 20px !important;
+    outline: none  !important;
+    border: none !important;
+}
+
+.search{
+    width: 45% !important;
+    background-color: whitesmoke !important;
+    margin-top: 5% !important;
+    margin-left: 0% !important;
+    text-align: center !important;
+    font-size: 20px !important;
+    border: none !important;
+    outline: invert !important;
+    border-radius: 0%;
+    
+    
+}
+
+.type{
+    width: 15% !important;
+    background-color: whitesmoke !important;
+    border-radius: 0px 25px 25px 0px;
+    margin-top: 5% !important;
+    margin-left: 0% !important;
+    text-align: center !important;
+    font-size: 20px !important;
+    outline: none  !important;
+    border: none !important;
+}
+
+.build{
+    background: url("../Buildings.png") !important;
+
+}
+
+body{
+    
+    background-size:contain;
+    background-position:top;
+    background: cover;
+}

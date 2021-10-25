@@ -1,0 +1,32 @@
+
+.logo{
+width: 48px !important;
+height: 48px !important;
+flex-grow: 1 !important;
+margin-top: 42px !important;
+margin-left: 172px !important;
+/* background: url(...); */
+}
+
+.logo-dravi{
+
+font-family: Nunito !important;
+font-weight: 600 !important;
+font-size: 29px !important;
+text-align: left !important;
+margin-left: 18px !important;
+margin-top: 57px !important;
+color: #e3c066;
+flex-grow: 1;
+
+}
+
+.buyer{
+font-family: Montserrat !important;
+font-weight: normal !important;
+font-size: 18px !important;
+letter-spacing: 0.03em !important;
+text-align: left !important;
+color: #fcfaf1 !important;
+
+}
