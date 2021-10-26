@@ -5,7 +5,10 @@ import React from "react";
 import "./CSS/Cover.css";
 import { ReactComponent as Logo} from "./SVG/Dravi.svg";
 import { ReactComponent as Bank} from "./SVG/banklogo.svg";
+import { ReactComponent as Build} from "./SVG/building.svg";
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
+
+
 
  function Cover (){
     const states = [
@@ -45,6 +48,8 @@ import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
           label: 'Type 4',
         },
       ];
+
+     
 
 
     const [state, setState] = React.useState('USD');
@@ -111,7 +116,7 @@ import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
             </MenuItem>
           ))}
         </TextField>
-        <Box className="build" />
+       <Build className="build" />
                 </div>
        )
 

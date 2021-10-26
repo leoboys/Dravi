@@ -1,7 +1,6 @@
 .coverbody{
 width: 100% !important;
-height: 1079px !important;
-top: 0% !important;
+height: 1000px !important;
 background: linear-gradient(#343434 0%, #5a5a5a 100%) !important;
 
 }
@@ -94,6 +93,7 @@ margin-top: 57px !important;
 .cover-Title{
     margin-top: 10% !important;
     margin-left: 26% !important;
+    margin-right: 25% !important;
     text-align: center !important;
     width: 743px !important;
     height: 46px !important;
@@ -223,10 +223,14 @@ margin-top: -10px !important;
     margin-left: 0% !important;
     text-align: center !important;
     font-size: 20px !important;
-    border: none !important;
+    /* border: none !important; */
     outline: invert !important;
-    border-radius: 0%;
     
+}
+
+.search:hover {
+    border: none !important;
+    border-color: white !important;
     
 }
 
@@ -243,13 +247,8 @@ margin-top: -10px !important;
 }
 
 .build{
-    background: url("../Buildings.png") !important;
-
-}
-
-body{
-    
-    background-size:contain;
-    background-position:top;
-    background: cover;
+    width: 100% !important;
+    height: 100% !important;
+    margin-top: -15% !important;
+    margin-bottom: 0% !important;
 }
