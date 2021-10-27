@@ -1,0 +1,48 @@
+.client-line{
+    width: 0px !important;
+    height: 200.5px !important;
+    background: transparent !important;
+    border: 2px solid #e6b31e !important ;
+    margin-left: 50% !important;
+
+}
+
+.client-title{
+    font-family: Nunito !important;
+    font-weight: bold !important;
+    font-size: 33px !important;
+    letter-spacing: 0.03em !important;
+    line-height: 50px !important;
+    text-align: center !important;
+    color: #4b4b4b !important;
+    margin-left:0% !important;
+    margin-top: 2% !important;
+
+}
+
+
+.client-circle{
+    width: 174px !important;
+    height: 174px !important;
+    background: transparent !important;
+    /* border: 1px solid #e6b31e !important; */
+    align-items: center !important;
+    margin-left: 42.3% !important;
+    margin-top: 5% !important;
+
+}
+
+.client-sub{
+    width: 997px !important;
+height: 99px !important;
+font-family: Muli !important;
+font-weight: normal !important;
+font-style: italic !important;
+font-size: 20px !important;
+line-height: 35px !important;
+text-align: center !important;
+color: #4b4b4b !important;
+margin-left: 7% !important;
+margin-top: 5% !important;
+
+}
