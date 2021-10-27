@@ -1,8 +1,8 @@
 import { Grid, Link, Slider, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
-import {ReactComponent as RealEstate} from "./SVG/realestate.svg";
-import {ReactComponent as Jp} from "./SVG/jp.svg";
+import Wall from "./SVG/jp.svg";
+import RealEstate from "./SVG/realestate.svg";
 import "./CSS/Content.css";
 
 function Content(){
@@ -33,7 +33,7 @@ function Content(){
              aria-label="Servicelevel"
               onKeyDown={preventHorizontalKeyboardNavigation}
              />
-          <Box  sx={{ order: 2}} > <RealEstate  className="real" /> </Box>  
+          <Box  sx={{ order: 2}} > <img src={RealEstate} alt="realestate" className="real " /> </Box>   
          </Box>
 
         </Grid>
@@ -47,9 +47,10 @@ function Content(){
          <Link href="#" underline="none" className="explore">Explore all  </Link>
         </Grid>
       </Grid>
+      <img src={Wall} alt="wall" className="wall" />
     </Box>
-
-    <Jp />
+ 
+    
         </div>
     )
 }
