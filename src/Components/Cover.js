@@ -4,9 +4,16 @@ import { Box } from "@mui/system";
 import React from "react";
 import "./CSS/Cover.css";
 import { ReactComponent as Logo} from "./SVG/Dravi.svg";
-import { ReactComponent as Bank} from "./SVG/banklogo.svg";
+import { ReactComponent as Bank} from "./SVG/cover.svg";
+import { ReactComponent as Money } from "./SVG/money.svg";
+import { ReactComponent as Fund } from "./SVG/fund.svg";
+import { ReactComponent as Estate } from "./SVG/estate.svg";
+import { ReactComponent as BriefCase } from "./SVG/briefcase.svg";
+import { ReactComponent as Safety } from "./SVG/safety.svg";
+import { ReactComponent as GoldStack } from "./SVG/goldstack.svg";
 import { ReactComponent as Build} from "./SVG/building.svg";
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
+
 
 
 
@@ -78,7 +85,20 @@ import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
       </Box>
 
       <Typography className="cover-Title" >India's Number One Realtor Service Provider</Typography>
-      <Box sx={{ p: 3, flexGrow: 0,}}> <Bank className="bank" /> </Box>
+{/* -----------Cover Logos-------------- */}
+
+      <Box sx={{ p: 3, flexGrow: 1,} }  > 
+      <Bank className="bank" /> 
+      <Money className="money" />
+      <Fund className="fund"  />
+      <Estate  className="estate" />
+      <BriefCase className="case" />
+      <Safety className="safe" />
+      <GoldStack  className="gold" /> 
+       </Box>
+
+{/* -----------Logo defenition-------------- */}
+
       <Box sx={{ position:"absolute",    display: 'flex', p: 0, bgcolor: 'background.paper' }}>
       <Box sx={{ p: 0, flexGrow: 1, order: 1 }} className="property"> Property Documentation</Box>
       <Box  sx={{ p: 0, order: 2 }} className="revenue" >Revenue Records</Box>

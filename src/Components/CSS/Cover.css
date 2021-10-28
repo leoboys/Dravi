@@ -107,11 +107,68 @@ margin-top: 57px !important;
 }
 
 .bank{
-width: 40% !important;
-height: 60% !important;
+width: 50px !important;
+height: 50px !important;
 text-align: center !important;
 align-items: center !important;
 margin-left: 32.5% !important;
+top: 10px !important;
+size: 50% !important;
+}
+
+.money{
+width: 50px !important;
+height: 50px !important;
+text-align: center !important;
+align-items: center !important;
+margin-left: 1.8% !important;
+top: 10px !important;
+size: 50% !important;
+}
+.fund{
+width: 50px !important;
+height: 50px !important;
+text-align: center !important;
+align-items: center !important;
+margin-left: 1.8% !important;
+top: 10px !important;
+size: 50% !important;
+}
+.estate{
+width: 50px !important;
+height: 50px !important;
+text-align: center !important;
+align-items: center !important;
+margin-left: 1.8% !important;
+top: 10px !important;
+size: 50% !important;
+}
+.case{
+width: 50px !important;
+height: 50px !important;
+text-align: center !important;
+align-items: center !important;
+margin-left: 1.8% !important;
+top: 10px !important;
+size: 50% !important;
+}
+
+.safe{
+width: 50px !important;
+height: 50px !important;
+text-align: center !important;
+align-items: center !important;
+margin-left: 1.8% !important;
+top: 10px !important;
+size: 50% !important;
+}
+
+.gold{
+width: 50px !important;
+height: 50px !important;
+text-align: center !important;
+align-items: center !important;
+margin-left: 1.8% !important;
 top: 10px !important;
 size: 50% !important;
 }

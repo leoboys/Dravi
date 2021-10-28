@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="facebook" transform="translate(18.811 14.5)">
+    <path id="Path_58" data-name="Path 58" d="M32.317,0,29.764,0a4.482,4.482,0,0,0-4.72,4.843V7.077H22.478a.4.4,0,0,0-.4.4v3.236a.4.4,0,0,0,.4.4h2.566v8.164a.4.4,0,0,0,.4.4h3.348a.4.4,0,0,0,.4-.4V11.115h3a.4.4,0,0,0,.4-.4V7.478a.4.4,0,0,0-.4-.4h-3V5.183c0-.91.217-1.372,1.4-1.372h1.719a.4.4,0,0,0,.4-.4v-3A.4.4,0,0,0,32.317,0Z" transform="translate(-22.077)" fill="#f0e3d0"/>
+  </g>
+  <g id="Ellipse_72" data-name="Ellipse 72" fill="none" stroke="#f0e3d0" stroke-width="1">
+    <circle cx="24" cy="24" r="24" stroke="none"/>
+    <circle cx="24" cy="24" r="23.5" fill="none"/>
+  </g>
+</svg>

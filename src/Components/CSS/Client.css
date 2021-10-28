@@ -1,6 +1,11 @@
+.client-body{
+    width: 100% !important;
+    height: 100vh !important;
+}
+
 .client-line{
     width: 0px !important;
-    height: 200.5px !important;
+    height: 120.5px !important;
     background: transparent !important;
     border: 2px solid #e6b31e !important ;
     margin-left: 50% !important;
@@ -22,27 +27,71 @@
 
 
 .client-circle{
-    width: 174px !important;
-    height: 174px !important;
+    width: 120px !important;
+    height: 120px !important;
     background: transparent !important;
-    /* border: 1px solid #e6b31e !important; */
+    border: 1px solid #e6b31e !important; 
     align-items: center !important;
-    margin-left: 42.3% !important;
-    margin-top: 5% !important;
-
+    margin-left: 42% !important;
+    margin-top: 2% !important;
+    padding: 10px !important;
+    border-radius: 100px !important ;
+    background-attachment: fixed;
 }
 
 .client-sub{
-    width: 997px !important;
+width: 797px !important;
 height: 99px !important;
 font-family: Muli !important;
 font-weight: normal !important;
 font-style: italic !important;
-font-size: 20px !important;
+font-size: 18px !important;
 line-height: 35px !important;
 text-align: center !important;
 color: #4b4b4b !important;
-margin-left: 7% !important;
-margin-top: 5% !important;
+margin-left: 5% !important;
+margin-top: 3% !important;
 
 }
+
+.client-name{
+font-family: Nunito !important;
+font-weight: bold !important;
+font-size: 16px !important;
+letter-spacing: 0.03em !important;
+line-height: 30px !important;
+text-align: center !important;
+color: #4b4b4b !important;
+margin-top: 4% !important;
+
+}
+
+.client-office{
+font-family: Nunito !important;
+font-weight: bold !important;
+font-size: 12px !important;
+letter-spacing: 0.03em !important;
+line-height: 25px !important;
+text-align: center !important;
+color: #4b4b4b !important;
+/* margin-top: 3% !important; */
+
+}
+
+.client-button{
+width: 140px !important;
+height: 45px !important;
+font-size: 14px !important;
+text-align: center !important;
+margin-top: 3% !important;
+margin-left: 42% !important;
+color: white !important;
+background-color: #e6b31e !important;
+/* bottom: 10% !important; */
+
+}
+
+.client-button:hover{
+    color: white !important;
+    background-color: #e6b31e !important ;
+    }

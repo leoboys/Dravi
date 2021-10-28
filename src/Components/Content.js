@@ -4,6 +4,7 @@ import React from "react";
 import Wall from "./SVG/jp.svg";
 import RealEstate from "./SVG/realestate.svg";
 import "./CSS/Content.css";
+import ArrowForwardOutlinedIcon from '@mui/icons-material/ArrowForwardOutlined';
 
 function Content(){
 
@@ -44,14 +45,14 @@ function Content(){
          <Typography className="sub-title" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et ultrices erat, dapibus malesuada tortor. Duis at pretium eros. Donec et mi ac eros consequat dapibus at vitae lectus. Nulla ac pellentesque dui. Nulla facilisi. Maecenas ut augue justo</Typography>
          <Typography className="sub-title2" >Praesent non eros vitae lacus congue interdum eget ut tortor. Fusce rhoncus tortor in feugiat efficitur. Integer posuere molestie est, in ornare enim maximus sit amet. Quisque commodo lacus sed aliquet molestie. Nam nec orci nibh.</Typography>
          
-         <Link href="#" underline="none" className="explore" >Explore all  </Link>
+         <Link href="#" underline="none" className="explore" sx={{marginY:"10%"}} >Explore all <ArrowForwardOutlinedIcon size="small" />  </Link>
         </Grid>
       </Grid>
       <img src={Wall} alt="wall" className="wall" />
     </Box>
  
     
-        </div>
+        </div> 
     )
 }
 

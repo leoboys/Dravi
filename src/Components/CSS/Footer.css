@@ -1,0 +1,307 @@
+.footer-body{
+    width: 100% !important;
+    height: 900px !important;
+    background: #343434 !important;
+
+}
+
+.footer-head{
+font-family: Nunito !important;
+font-weight: bold !important;
+font-size: 30px !important;
+letter-spacing: 0.03em !important;
+line-height: 50px !important;
+text-align: center !important;
+color: #fcfaf1 !important;
+padding-top: 10% !important;
+
+}
+
+.footer-sub{
+width: 752px;
+height: 61px;
+font-family: Muli;
+font-weight: 300;
+font-size: 16px;
+line-height: 35px;
+text-align: center !important;
+color: #fff;
+margin-left: 18% ;
+
+}
+
+.buy-button{
+width: 185px !important;
+font-size: 14px !important;
+height: 55px !important;
+background-color: #e6b31e !important;
+color: white !important;
+border-radius: 0px !important;
+margin-top: 88px !important;
+margin-left: 27% !important;
+}
+
+.div-line{
+    
+width: 100px !important;
+height: 0px !important;
+margin-top: 10% !important;
+margin-left: 2% !important;
+color: white !important;
+border: 1px solid white !important;
+}
+
+.sell-button{
+    width: 185px !important;
+    font-size: 14px !important;
+    height: 55px !important;
+    background-color: #e6b31e !important;
+    color: white !important;
+    border-radius: 0px !important;
+    margin-top: 88px !important;
+    margin-left: 2% !important;
+
+}
+
+.div-line2{
+    
+    width: 1190px !important;
+    height: 0px !important;
+    margin-top: 13.5% !important;
+    margin-left: -2% !important;
+    color: white !important;
+    border: 1px solid #e6b31e !important;
+    
+    }
+
+.dravi-logo{
+width: 87px !important;
+height: 88px !important;
+margin-left: -10% !important;
+margin-top: 5% !important;
+flex-grow: 0;
+
+}
+
+.logo-name{
+font-family: Nunito !important;
+font-weight: 750 !important;
+font-size: 35px !important;
+text-align: left !important;
+margin-left: -10% !important;
+margin-top: -2% !important;
+color: #dcc043 !important;
+
+}
+
+.icon-fb{
+width: 30.18px !important;
+height: 30.18px !important;
+margin-left: 0 !important;
+padding: 5px !important;
+}
+
+.icon-twit{
+    width: 30.18px !important;
+    height: 30.18px !important;
+    padding: 5px !important;
+    
+    }
+.icon-google{
+    width: 30.18px !important;
+    height: 30.18px !important;
+    padding: 5px !important;
+    
+    }
+.icon-insta{
+    width: 30.18px !important;
+    height: 30.18px !important;
+    padding: 5px !important;
+    
+    }
+
+    
+.quick{
+font-family: Nunito !important;
+font-weight: bold !important;
+font-size: 18px !important;
+letter-spacing: 0.03em !important;
+line-height: 50px !important;
+text-align: left !important;
+color: #fff !important;
+
+}
+
+.div-line3{
+width: 50px !important;
+height: 0px !important;
+margin-top: 0 !important;
+margin-left: 2% !important;
+color: #dcc043  !important;
+
+border: 3px solid  #dcc043 !important ;
+}
+
+
+.link-home{
+width: 100% !important;
+height: 165px !important;
+font-family: Muli !important;
+font-weight: 300 !important;
+font-size: 16px !important;
+line-height: -35px !important;
+text-align: left !important;
+color: #f0e3d0 !important;
+/* margin-top: -10% !important;
+margin-left: -20% !important; */
+
+}
+
+.link-about{
+width: 137px !important;
+height: 165px !important;
+font-family: Muli !important;
+font-weight: 300 !important;
+font-size: 16px !important;
+line-height: -35px !important;
+text-align: left !important;
+color: #f0e3d0 !important;
+
+/* margin-top: -20% !important;
+margin-left: -20% !important; */
+
+}
+
+.link-service{
+    width: 137px !important;
+height: 165px !important;
+font-family: Muli !important;
+font-weight: 300 !important;
+font-size: 16px !important;
+line-height: -35px !important;
+text-align: left !important;
+color: #f0e3d0 !important;
+/* margin-top: -20% !important;
+margin-left: -20% !important; */
+
+}
+.link-testimony{
+    width: 137px !important;
+height: 165px !important;
+font-family: Muli !important;
+font-weight: 300 !important;
+font-size: 16px !important;
+line-height: -35px !important;
+text-align: left !important;
+color: #f0e3d0 !important;
+
+
+}
+.link-contact{
+    width: 137px !important;
+height: 165px !important;
+font-family: Muli !important;
+font-weight: 300 !important;
+font-size: 16px !important;
+line-height: -35px !important;
+text-align: left !important;
+color: #f0e3d0 !important;
+/* margin-top: -20% !important;
+margin-left: -20% !important; */
+
+}
+
+.site{
+font-family: Nunito !important;
+font-weight: bold !important;
+font-size: 18px !important;
+letter-spacing: 0.03em !important;
+line-height: 50px !important;
+text-align: left !important;
+color: #fff !important;
+
+}
+
+
+.link-process{
+    width: 100% !important;
+height: 165px !important;
+font-family: Muli !important;
+font-weight: 300 !important;
+font-size: 16px !important;
+line-height: -35px !important;
+text-align: left !important;
+color: #f0e3d0 !important;
+}
+.link-do{
+    width: 100% !important;
+height: 165px !important;
+font-family: Muli !important;
+font-weight: 300 !important;
+font-size: 16px !important;
+line-height: -45px !important;
+text-align: left !important;
+color: #f0e3d0 !important;
+}
+.link-location{
+    width: 137px !important;
+height: 165px !important;
+font-family: Muli !important;
+font-weight: 300 !important;
+font-size: 16px !important;
+line-height: -20px !important;
+text-align: left !important;
+color: #f0e3d0 !important;
+}
+.link-sell{
+    width: 137px !important;
+    height: 165px !important;
+    font-family: Muli !important;
+    font-weight: 300 !important;
+    font-size: 16px !important;
+    line-height: -35px !important;
+    text-align: left !important;
+    color: #f0e3d0 !important;
+    
+}
+.link-purchase{
+    width: 100% !important;
+height: 165px !important;
+font-family: Muli !important;
+font-weight: 300 !important;
+font-size: 16px !important;
+line-height: -35px !important;
+text-align: left !important;
+color: #f0e3d0 !important;
+}
+
+
+.email-box{
+    -ms-grid-layer: 1px solid  #f0e3d0 !important ;
+    width: 350px !important;
+    height: 40px !important;
+    padding: 0px !important;
+    color: #f0e3d0 !important;
+    font-size: 14px !important;
+    text-align: center !important ;
+    border: 1px solid  #f0e3d0 !important ;
+    margin-top: 45.9% !important;
+    padding-inline-start: 20px !important;
+    border-radius: 5px 0px 0px 5px !important;
+
+}
+
+.email-button{
+    background-color: #e6b31e   !important ;
+    width: 70px !important;
+    height: 41px !important;
+    font-size: 10px !important;
+    font-weight: bold !important;
+    letter-spacing: 0.09em;
+    color: white !important ;
+    margin-top: 45.8% !important ;
+    margin-left: -1% !important ;
+    border-radius: 0px 5px 5px 0px !important;
+    
+}
+

@@ -4,6 +4,7 @@ import Content from './Content';
 import Cover from './Cover';
 import "./CSS/App.css";
 import Feature from './Feature';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Content />
       <Feature />
       <Client />
+      <Footer />
     </div>
   );
 }
