@@ -1,5 +1,5 @@
 .coverbody {
-  width: 100% !important;
+  width: 100vw !important;
   height: 100vh !important;
   background: linear-gradient(#343434 0%, #5a5a5a 100%) !important;
 }
@@ -314,7 +314,7 @@
 
   background-color: whitesmoke !important;
   border-radius: 25px 0px 0px 25px;
-  margin-top: 2% !important;
+  margin-top: 5% !important;
   margin-left: 22% !important;
   text-align: center !important;
   font-size: 20px !important;
@@ -325,7 +325,7 @@
 .search {
   width: 35% !important;
   background-color: whitesmoke !important;
-  margin-top: 2% !important;
+  margin-top: 5% !important;
   margin-left: 0% !important;
   text-align: center !important;
   font-size: 20px !important;
@@ -342,7 +342,7 @@
   width: 10% !important;
   background-color: whitesmoke !important;
   border-radius: 0px 25px 25px 0px;
-  margin-top: 2% !important;
+  margin-top: 5% !important;
   margin-left: 0% !important;
   text-align: center !important;
   font-size: 20px !important;
@@ -351,8 +351,9 @@
 }
 
 .build {
+  position: absolute !important;
   width: 100% !important;
   height: 100% fixed !important;
-  margin-top: -14.5% !important;
+  margin-top: 0px !important;
   margin-bottom: 0% !important;
 }

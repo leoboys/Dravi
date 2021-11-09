@@ -1,20 +1,6 @@
-import {
-  Button,
-  Divider,
-  Drawer,
-  InputBase,
-  Link,
-  List,
-  ListItem,
-  ListItemText,
-  Menu,
-  MenuItem,
-  TextField,
-  Typography,
-} from "@mui/material";
-//import { Typography } from "@mui/material";
+import { Link, MenuItem, TextField, Typography } from "@mui/material";
 import { Box } from "@mui/system";
-import React, { useState } from "react";
+import React from "react";
 import "./CSS/Cover.css";
 import { ReactComponent as Logo } from "./SVG/Dravi.svg";
 import { ReactComponent as Bank } from "./SVG/cover.svg";
@@ -26,7 +12,8 @@ import { ReactComponent as Safety } from "./SVG/safety.svg";
 import { ReactComponent as GoldStack } from "./SVG/goldstack.svg";
 import { ReactComponent as Build } from "./SVG/building.svg";
 import { ReactComponent as Menu1 } from "./SVG/mainmenu.svg";
-import ClearRoundedIcon from "@mui/icons-material/ClearRounded";
+// import { Link } from "react-router-dom";
+// import ClearRoundedIcon from "@mui/icons-material/ClearRounded";
 // import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 
 function Cover() {
@@ -70,47 +57,10 @@ function Cover() {
 
   // -----------------------------------------------------------------
 
-  const toggleDrawer = (anchor, open) => (event) => {
-    if (
-      event.type === "keydown" &&
-      (event.key === "Tab" || event.key === "Shift")
-    ) {
-      return;
-    }
-
-    setState({ ...state, [anchor]: open });
-  };
-
-  const list = (anchor) => (
-    <Box
-      sx={{ width: anchor === "top" || anchor === "bottom" ? "auto" : 250 }}
-      role="presentation"
-      onClick={toggleDrawer(anchor, false)}
-      onKeyDown={toggleDrawer(anchor, false)}
-    >
-      <List>
-        {["Inbox", "Starred", "Send email", "Drafts"].map((text, index) => (
-          <ListItem button key={text}>
-            <ListItemText primary={text} />
-          </ListItem>
-        ))}
-      </List>
-      <Divider />
-    </Box>
-  );
-
   // ----------------------------------------------------------------
 
   const [state, setState] = React.useState("USD");
   const [type, setType] = React.useState("2");
-  const [menu, setMenuBar] = useState(null);
-  const open = Boolean(menu);
-  // const handleClick = (event) => {
-  //   setMenuBar(event.currentTarget);
-  // };
-  const handleClose = () => {
-    setMenuBar(null);
-  };
 
   const handleChange = (event) => {
     setState(event.target.value);
@@ -121,6 +71,7 @@ function Cover() {
   };
   return (
     <div className="coverbody">
+      {/* -----------------Header Line------------------------ */}
       <Box sx={{ display: "flex", p: 0, bgcolor: "background.paper" }}>
         <Box sx={{ p: 1, flexGrow: 0, bgcolor: "grey.300" }}>
           {" "}
@@ -149,74 +100,8 @@ function Cover() {
 
         {/* ---------------Menu Icon-------------------------------- */}
         <Menu1 className="menu" />
-        {/* <IconButton
-          sx={{ p: 1 }}
-          className="menu"
-          id="basic-button"
-          aria-controls="basic-menu"
-          aria-haspopup="true"
-          aria-expanded={open ? "true" : undefined}
-          onClick={handleClick}
-          // onClick={handleClose}
-        >
-          {" "}
-          <Menu1 />
-        </IconButton> */}
-        {/* -------------------Menu Items-------------------------------- */}
-
-        {/* <div className="menu">
-          {["right"].map((anchor) => (
-            <React.Fragment key={anchor}>
-              <Button onClick={toggleDrawer(anchor, true)}>{anchor}</Button>
-              <Drawer
-                anchor={anchor}
-                open={state[anchor]}
-                onClose={toggleDrawer(anchor, false)}
-              >
-                {list(anchor)}
-              </Drawer>
-            </React.Fragment>
-          ))}
-        </div> */}
 
         {/* ----------------------------------------------------- */}
-
-        <Menu
-          className="menu-item"
-          id="normal-menu"
-          anchorEl={menu}
-          open={open}
-          onClose={handleClose}
-          // MenuListProps={{
-          //   'Nunito': 'basic-button',
-          // }}
-        >
-          <MenuItem onClick={handleClose}>
-            {" "}
-            <ClearRoundedIcon className="cancle-icon" />{" "}
-          </MenuItem>
-          <MenuItem href="#">
-            {" "}
-            <Typography classname="menu-1">Home</Typography>{" "}
-          </MenuItem>
-          <MenuItem href="#">About Us</MenuItem>
-          <MenuItem href="#">Service</MenuItem>
-          <MenuItem href="#">Testimonials</MenuItem>
-          <MenuItem href="#">Contact Us</MenuItem>
-          <MenuItem href="#">
-            <Box sx={{ display: "flex", flexGrow: 1 }}>
-              <InputBase
-                sx={{ flex: 1 }}
-                type="email"
-                outline="none"
-                placeholder="Email Address"
-                className="menu-email-box"
-              />
-
-              <Button className="menu-email-button">Subscribe</Button>
-            </Box>
-          </MenuItem>
-        </Menu>
       </Box>
 
       {/* ------------Title---------------- */}
@@ -305,8 +190,9 @@ function Cover() {
         ))}
       </TextField>
       {/*---------------BackDrop image----------------  */}
-
-      <Build className="build" />
+      <Box sx={{ marginTop: "-43.5vh" }}>
+        <Build className="build" />
+      </Box>
     </div>
   );
 }
